@@ -39,6 +39,10 @@ The application can be easily downloaded and installed. Adding the main advantag
 The app can be run easily , without any login. Our app can be used by ANYONE, ANYTIME, ANYPLACE, to measure the noise around them.
 
 
+## Images
+
+
+
 ### IBM Cloud Analysis:
 This IBM Cloud analysis is usually the graph which keeps updating itself, as the amount of data it receives from the RaspberryPi board. This graph helps us understand the amount of noise which was measured around a human carrying this device along with headphones.
 
@@ -57,4 +61,3 @@ You can also find our blog post consisting of more information and scope <a href
 #### Teams
 1) <a href="https://github.com/abhisheklokhande"> Abhishek Lokhande </a>
 2) <a href="https://github.com/momo1901"> Mohammed Sukhsarwala </a>
-@momo1901
