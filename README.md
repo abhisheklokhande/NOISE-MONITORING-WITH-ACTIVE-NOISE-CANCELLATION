@@ -30,12 +30,12 @@ The headphones are connected using the usb extension of the Pi board and the Spe
 
 ### Noise Monitor Application
 The main part of our project, is the user-friendly mobile application which we have created. The main task of this application is to measure the noise using the mobile audio devices and our algorithm calculates the sound and converts it into decibel values. Using these Decibels Values, we can easily Identify the categories for noise to be beared and the level after which action needs to be taken. 
-You can find the link for the application <a href="https://github.com/momo1901/NoiseMonitor"> here </a>
+You can find the link for the application <a href="https://github.com/momo1901/NoiseMonitor"><b><u> HERE </u></b></a>
 
 ## Installation
 The application can be easily downloaded and installed. Adding the main advantage of user friendliness, the installation is easy and as soon as the app is installed. It can be opened and the noise can be monitored easily.
 	
-##Run the Application
+## Run the Application
 The app can be run easily , without any login. Our app can be used by ANYONE, ANYTIME, ANYPLACE, to measure the noise around them.
 
 
@@ -57,3 +57,4 @@ You can also find our blog post consisting of more information and scope <a href
 #### Teams
 1) <a href="https://github.com/abhisheklokhande"> Abhishek Lokhande </a>
 2) <a href="https://github.com/momo1901"> Mohammed Sukhsarwala </a>
+@github/momo1901
