@@ -1,4 +1,5 @@
-# NOISE-MONITORING-WITH-ACTIVE-NOISE-CANCELLATION
+# ACTIVE NOISE CANCELLATION AND NOISE MONITORING
+
 
 ## Overview
 In this busy world, we are always surrounded by unwanted sound, often termed as noise, and this has become hazardous and is called as Noise Pollution. The tendency of human body to bear the noise is limited. The human body on long term exposure to noise can lead to various mental and physical health hazardous.
