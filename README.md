@@ -1,42 +1,47 @@
 # NOISE-MONITORING-WITH-ACTIVE-NOISE-CANCELLATION
-#### project description using user scenario
-this project is about noise cancellation using noise monitor application sending notifications to the Fitbit. if you are travelling home via metro but the vibrations and noise is too much. and you don't know how much decibels of sound it is providing. we can set some decibels on the application. if it reaches beyond that decibels it will remind you via Fitbit that power on the headphones to avoid the effect on your body. 
 
-#### NOISE MONITOR ANDROID APPLICATION.
-This is the android application which recognise the sound in decibels and gives you the analysis of the frequency. and through this application we connected our application to ibm waston iot. so with the help of ibm streaming analysis the noise captures with the frequencies.
+## Overview
+In this busy world, we are always surrounded by unwanted sound, often termed as noise, and this has become hazardous and is called as Noise Pollution. The tendency of human body to bear the noise is limited. The human body on long term exposure to noise can lead to various mental and physical health hazardous.
+The idea for this problem, is providing an application to user, so that he can measure the noise around, and decide whether its hazardous for him or not. We even have a noise cancellation system, which uses noise cancelling algorithm to mitigate the noise so that the user is not affected by the noise around.
 
+## Techologies Involved in the Project
+
+#### Hardware
+	1) Raspberry Pi3
+	
+#### Software
+	1) IBM Watson IOT
+	2) IBM Streaming Analysis
+	3) Node Red
+	4) GCC Compiler
+	5) Android Studio
+	
+	
+## Devices
+	The main device for our project is the Raspberry Pi3 board, attached with headphones.
 
 #### RASPBERRY PI
-Why we are considering raspberry pi is because we have to connect devices which is microphone and speaker.
-To connect Raspberry pi with pc we struggle a lot without keyboard,mouse,monitor.
-the easiest way to connect raspberry pi with pc is using keyboard,mouse,monitor.
-after all the connection you can see the raspbian operating system on the monitor it will install all the files and after that you can connect it to the wifi using your mobile hotspot. and after that you can remove the connections and you can see the IP address in the ipscanner software. copy the IP address and paste it on putty so that you can get access to the command prompt of raspberry pi.
-after that you have to insert the user id and password. user : pi ; password : raspberry. you can insert the c code using vm and you can run the program.
-it this code we have taken the random data to get the output.    <BR/>
-for (int i = 0; i < M; i++) <BR/>
-      Y += (W[i] * X[i]);		//calculate filter output <BR/>
-E = D - Y;		//calculate error signal <BR/>
-for (int i = 0; i < M ; i++) <BR/>
-	W[i] = W[i] + (mu * E * X[i]);		//update filter coefficients <BR/>
-for (int i = 0; i < I; i++) <BR/>
-		Input[i] = rand() / (float)RAND_MAX; <BR/>
-	for (int i = 0; i < I; i++) <BR/>
-		for (int j = 0; j < M; j++) <BR/>
-			if (i - j >= 0) <BR/>
-				Desired[i] += Input[i - j] * H[j]; <BR/>
-#### ANC HEADPHONES. 
-IN THIS PROJECT WE DONT USE THE ANC HEADPHONES. INSTEAD OF THAT WE ARE USING RASPBERRY PI WITH MICROPHONE AND SPEAKER.
-SO IN THIS RASPBERRY PI WE ARE INSERTING THE CODE OF LMS ALGORITHM AND ADAPTIVE FILTERS SO THAT THE RASPBERRY PI RECOGNISE 
-THE SOUND FROM MICROPHONE AND THROUGH THE LMS ALGORITHM AND ADAPTIVE FILTERS IT WILL CANCEL THE NOISE.
-#### NODE-RED
-You have to select the design in the node red which is already installed in the ibm Watson iot. you have to select the execution call() and some javascript functions to connect the raspberry pi to the ibm Watson iot. after the design you just select the deploy button on the right side of the node-red software.
+	The main task of RaspberryPi is to load the noise cancellation algorithm when the user is using the headphones. The RaspberryPi even sends out measured noise signal values to IBM Watson, which can help to record the history of noise recorded by the person using the headphones.
+	The Pi board will always be needed to be connected to Internet so that the data can be transferred to IBM Watson for future computations.
 
-#### CLOUD PART
-After the deployment you can see the analysis and frequency of the random data which we have given in the code in the ibm streaming analysis. After that using node-red you can send the notification to the mobile app or Fitbit using some protocols and fuctions. 
+#### HEADPHONES AND SPEAKERS.
+	The headphones are connected using the usb extension of the Pi board and the Speakers are connected using the 3.5mm Audio Jack, prescribed for it. Hence, the audio is heard and calculated using the headphones and then the noise cancellation algorithm uses these noise signals and removes the unwanted noise from it, leaving a soothing audio which can be heard from the speakers.
 
 
-### IBM Cloud Analysis Link:
-https://quickstart.internetofthings.ibmcloud.com/#/device/cacd5757.bcd0a8/sensor/
+#### NoiseMonitor Application
+	The main part of our project, is the user-friendly mobile application which we have created. The main task of this application is to measure the noise using the mobile audio devices and our algorithm calculates the sound and converts it into decibel values. Using these Decibels Values, we can easily Identify the categories for noise to be beared and the level after which action needs to be taken.
+
+	## Installation
+	The application can be easily downloaded and installed. Adding the main advantage of user friendliness, the installation is easy and as soon as the app is installed. It can be opened and the noise can be monitored easily.
+	
+	##Run the Application
+	The app can be run easily , without any login. Our app can be used by ANYONE, ANYTIME, ANYPLACE, to measure the noise around them.
+
+
+### IBM Cloud Analysis:
+This IBM Cloud analysis is usually the graph which keeps updating itself, as the amount of data it receives from the RaspberryPi board. This graph helps us understand the amount of noise which was measured around a human carrying this device along with headphones.
+
+
 
 
 #### presentation links
@@ -45,3 +50,8 @@ https://www.slideshare.net/Abhiloki/final-presentation-iot
 
 #### HACSTER.IO
 https://www.hackster.io/abhiloki333/noise-monitoring-and-active-noise-cancellation-de3af8
+
+
+####Teams
+1) Abhishek Lokhande
+2) Mohammed Sukhsarwala
