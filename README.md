@@ -40,14 +40,15 @@ The app can be run easily , without any login. Our app can be used by ANYONE, AN
 
 
 ## Images
-![App Images](https://github.com/abhisheklokhande/NOISE-MONITORING-WITH-ACTIVE-NOISE-CANCELLATION/blob/master/images/app.PNG)
+![App Images](https://github.com/abhisheklokhande/NOISE-MONITORING-WITH-ACTIVE-NOISE-CANCELLATION/blob/master/images/app.PNG Application Image)
+![MaxNoise Changing](https://github.com/abhisheklokhande/NOISE-MONITORING-WITH-ACTIVE-NOISE-CANCELLATION/blob/master/images/maxchanged.PNG Value of Maximum Noise Change.)
 
 
 
 
 ### IBM Cloud Analysis:
 This IBM Cloud analysis is usually the graph which keeps updating itself, as the amount of data it receives from the RaspberryPi board. This graph helps us understand the amount of noise which was measured around a human carrying this device along with headphones.
-
+![IBMCloudStreaming](https://github.com/abhisheklokhande/NOISE-MONITORING-WITH-ACTIVE-NOISE-CANCELLATION/blob/master/images/ibmwatson.PNG)
 
 
 
