@@ -7,14 +7,14 @@ The idea for this problem, is providing an application to user, so that he can m
 ## Techologies Involved in the Project
 
 #### Hardware
-	1) <a href="https://www.raspberrypi.org/">Raspberry Pi3 </a>
+1) <a href="https://www.raspberrypi.org/">Raspberry Pi3 </a>
 	
 #### Software
-	1) <a href="https://internetofthings.ibmcloud.com/">IBM Watson IOT </a>
-	2) <a href="https://www.ibm.com/it-it/cloud/streaming-analytics">IBM Streaming Analysis</a>
-	3) <a href="https://nodered.org/">Node Red</a>
-	4) <a href="https://gcc.gnu.org/">GCC Compiler </a>
-	5) <a href="https://developer.android.com/studio">Android Studio</a>
+1) <a href="https://internetofthings.ibmcloud.com/">IBM Watson IOT </a>
+2) <a href="https://www.ibm.com/it-it/cloud/streaming-analytics">IBM Streaming Analysis</a>
+3) <a href="https://nodered.org/">Node Red</a>
+4) <a href="https://gcc.gnu.org/">GCC Compiler </a>
+5) <a href="https://developer.android.com/studio">Android Studio</a>
 	
 	
 ## Devices
@@ -28,8 +28,9 @@ The idea for this problem, is providing an application to user, so that he can m
 	The headphones are connected using the usb extension of the Pi board and the Speakers are connected using the 3.5mm Audio Jack, prescribed for it. Hence, the audio is heard and calculated using the headphones and then the noise cancellation algorithm uses these noise signals and removes the unwanted noise from it, leaving a soothing audio which can be heard from the speakers.
 
 
-#### <a href="https://github.com/momo1901/NoiseMonitor">NoiseMonitor Application</a>
-	The main part of our project, is the user-friendly mobile application which we have created. The main task of this application is to measure the noise using the mobile audio devices and our algorithm calculates the sound and converts it into decibel values. Using these Decibels Values, we can easily Identify the categories for noise to be beared and the level after which action needs to be taken.
+### Noise Monitor Application</a>
+	The main part of our project, is the user-friendly mobile application which we have created. The main task of this application is to measure the noise using the mobile audio devices and our algorithm calculates the sound and converts it into decibel values. Using these Decibels Values, we can easily Identify the categories for noise to be beared and the level after which action needs to be taken. 
+	You can find the link for the application <a href="https://github.com/momo1901/NoiseMonitor">here </a>
 
 	## Installation
 	The application can be easily downloaded and installed. Adding the main advantage of user friendliness, the installation is easy and as soon as the app is installed. It can be opened and the noise can be monitored easily.
@@ -44,14 +45,15 @@ This IBM Cloud analysis is usually the graph which keeps updating itself, as the
 
 
 
-#### presentation links
-https://www.slideshare.net/Abhiloki/noisestress-ppt2 <br/>
-https://www.slideshare.net/Abhiloki/final-presentation-iot
+#### Links for Presenatations
+
+<a href="https://www.slideshare.net/Abhiloki/noisestress-ppt2"> Noise Stress Presentation </a>
+<a href="https://www.slideshare.net/Abhiloki/final-presentation-iot"> Noise Cancellation Presentation </a>
 
 #### HACSTER.IO
 https://www.hackster.io/abhiloki333/noise-monitoring-and-active-noise-cancellation-de3af8
 
 
 ####Teams
-1) Abhishek Lokhande
+1) <a href="https://github.com/abhisheklokhande"> Abhishek Lokhande </a>
 2) <a href="https://github.com/momo1901"> Mohammed Sukhsarwala </a>
