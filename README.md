@@ -69,5 +69,5 @@ You can also find our blog post consisting of more information and scope <a href
 
 
 #### Teams
-1) <a href="https://github.com/abhisheklokhande"> Abhishek Lokhande </a> LinkedIn Profile: https://www.linkedin.com/in/abhishek-lokhande-569b99123/
-2) <a href="https://github.com/momo1901"> Mohammed Sukhsarwala </a> LinkedIn Profile: https://www.linkedin.com/in/mohammed-sukhsarwala-7924479b/
+1) <a href="https://github.com/abhisheklokhande"> Abhishek Lokhande </a> <a href="https://www.linkedin.com/in/abhishek-lokhande-569b99123/">LinkedIn</a>
+2) <a href="https://github.com/momo1901"> Mohammed Sukhsarwala </a> <a href="https://www.linkedin.com/in/mohammed-sukhsarwala-7924479b/">LinkedIn</a>
