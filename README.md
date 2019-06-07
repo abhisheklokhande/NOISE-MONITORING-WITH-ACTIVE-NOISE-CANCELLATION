@@ -42,3 +42,6 @@ https://quickstart.internetofthings.ibmcloud.com/#/device/cacd5757.bcd0a8/sensor
 #### presentation links
 https://www.slideshare.net/Abhiloki/noisestress-ppt2 <br/>
 https://www.slideshare.net/Abhiloki/final-presentation-iot
+
+#### HACSTER.IO
+https://www.hackster.io/abhiloki333/noise-monitoring-and-active-noise-cancellation-de3af8
