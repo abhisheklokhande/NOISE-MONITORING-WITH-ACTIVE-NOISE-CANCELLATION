@@ -18,25 +18,25 @@ The idea for this problem, is providing an application to user, so that he can m
 	
 	
 ## Devices
-	The main device for our project is the Raspberry Pi3 board, attached with headphones.
+The main device for our project is the Raspberry Pi3 board, attached with headphones.
 
 #### RASPBERRY PI
-	The main task of RaspberryPi is to load the noise cancellation algorithm when the user is using the headphones. The RaspberryPi even sends out measured noise signal values to IBM Watson, which can help to record the history of noise recorded by the person using the headphones.
-	The Pi board will always be needed to be connected to Internet so that the data can be transferred to IBM Watson for future computations.
+The main task of RaspberryPi is to load the noise cancellation algorithm when the user is using the headphones. The RaspberryPi even sends out measured noise signal values to IBM Watson, which can help to record the history of noise recorded by the person using the headphones.
+The Pi board will always be needed to be connected to Internet so that the data can be transferred to IBM Watson for future computations.
 
 #### HEADPHONES AND SPEAKERS.
-	The headphones are connected using the usb extension of the Pi board and the Speakers are connected using the 3.5mm Audio Jack, prescribed for it. Hence, the audio is heard and calculated using the headphones and then the noise cancellation algorithm uses these noise signals and removes the unwanted noise from it, leaving a soothing audio which can be heard from the speakers.
+The headphones are connected using the usb extension of the Pi board and the Speakers are connected using the 3.5mm Audio Jack, prescribed for it. Hence, the audio is heard and calculated using the headphones and then the noise cancellation algorithm uses these noise signals and removes the unwanted noise from it, leaving a soothing audio which can be heard from the speakers.
 
 
-### Noise Monitor Application</a>
-	The main part of our project, is the user-friendly mobile application which we have created. The main task of this application is to measure the noise using the mobile audio devices and our algorithm calculates the sound and converts it into decibel values. Using these Decibels Values, we can easily Identify the categories for noise to be beared and the level after which action needs to be taken. 
-	You can find the link for the application <a href="https://github.com/momo1901/NoiseMonitor">here </a>
+### Noise Monitor Application
+The main part of our project, is the user-friendly mobile application which we have created. The main task of this application is to measure the noise using the mobile audio devices and our algorithm calculates the sound and converts it into decibel values. Using these Decibels Values, we can easily Identify the categories for noise to be beared and the level after which action needs to be taken. 
+You can find the link for the application <a href="https://github.com/momo1901/NoiseMonitor"> here </a>
 
-	## Installation
-	The application can be easily downloaded and installed. Adding the main advantage of user friendliness, the installation is easy and as soon as the app is installed. It can be opened and the noise can be monitored easily.
+## Installation
+The application can be easily downloaded and installed. Adding the main advantage of user friendliness, the installation is easy and as soon as the app is installed. It can be opened and the noise can be monitored easily.
 	
-	##Run the Application
-	The app can be run easily , without any login. Our app can be used by ANYONE, ANYTIME, ANYPLACE, to measure the noise around them.
+##Run the Application
+The app can be run easily , without any login. Our app can be used by ANYONE, ANYTIME, ANYPLACE, to measure the noise around them.
 
 
 ### IBM Cloud Analysis:
@@ -47,13 +47,13 @@ This IBM Cloud analysis is usually the graph which keeps updating itself, as the
 
 #### Links for Presenatations
 
-<a href="https://www.slideshare.net/Abhiloki/noisestress-ppt2"> Noise Stress Presentation </a>
-<a href="https://www.slideshare.net/Abhiloki/final-presentation-iot"> Noise Cancellation Presentation </a>
+1) <a href="https://www.slideshare.net/Abhiloki/noisestress-ppt2"> Noise Stress Presentation </a> <br>
+2) <a href="https://www.slideshare.net/Abhiloki/final-presentation-iot"> Noise Cancellation Presentation </a>
 
 #### HACSTER.IO
-https://www.hackster.io/abhiloki333/noise-monitoring-and-active-noise-cancellation-de3af8
+You can also find our blog post consisting of more information and scope <a href="https://www.hackster.io/abhiloki333/noise-monitoring-and-active-noise-cancellation-de3af8"> HERE </a>
 
 
-####Teams
+#### Teams
 1) <a href="https://github.com/abhisheklokhande"> Abhishek Lokhande </a>
 2) <a href="https://github.com/momo1901"> Mohammed Sukhsarwala </a>
